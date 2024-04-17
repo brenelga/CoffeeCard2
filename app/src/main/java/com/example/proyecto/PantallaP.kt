@@ -15,6 +15,7 @@ class PantallaP : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
+
     fun regus(view: View){
         val intent = Intent(this, RegistroUs::class.java)
         startActivity(intent)
